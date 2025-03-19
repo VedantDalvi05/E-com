@@ -1,0 +1,456 @@
+body {
+    background-color :rgb(28, 28, 28);
+    color: rgb(255, 255, 255);
+   
+}
+
+#Heading {
+    
+    background-color: #8e7a61;
+    height: 70px;
+    
+    
+}
+#FS{
+    text-align: center;
+   position: relative;
+   top: 15px;
+   letter-spacing: 5px;
+ 
+   font-weight:bolder;
+}
+
+ #fashion-opt{
+    background-color: #D1BB9E;
+    color: black;
+    height:200px ;
+    box-shadow: inset black;
+ }
+#tshirt {
+    
+    transition: transform 0.3s ease-in-out; /* Smooth animation */
+    width: 120px;
+    position: relative;
+    left: 200px;
+    bottom: 10px;
+    
+}
+#tshirt:hover{
+    transform: scale(1.2); /* Increases size by 20% */
+    
+}
+#sung{
+    transition: transform 0.3s ease-in-out;
+    width: 170px;
+    position:absolute;
+    left: 500px;
+    top: 90px;
+    
+    
+}
+#sung:hover{
+    transform: scale(1.2);
+}
+#shoes{
+    transition: transform 0.3s;
+    width: 170px;
+    position: absolute;
+    left: 860px;
+    
+}
+#shoes:hover{
+    transform:scale(1.2);
+}
+#pants {
+    transition: transform 0.3s;
+    width: 150px;
+    position: absolute;
+    left:1185px;
+}
+#pants:hover {
+    transform:scale(1.2);
+}
+#ts{
+    color: #322719;
+    position: absolute;
+    left: 240px;
+    top:220px;
+}
+#sg{
+    color: #322719;
+    position: absolute;
+    left:532px;
+    top:220px
+}
+#sh{
+    color: #322719;
+    position: absolute;
+    left: 920px;
+    top:220px;
+    
+}
+#pnt{
+    color: #322719;
+    position: absolute;
+    left:1230px;
+    top: 220px;
+
+}
+
+
+#bg {
+    background-color: #FFF2E1;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0; /* Add extra space so content below is not overlapped */
+    position: relative; /* Ensures absolute positioning works */
+}
+
+#banner {
+    position: absolute;
+    top: 30px; /* Moves the banner upwards */
+    width: 80%;
+    height: 200px;
+    
+    max-width: 1000px;
+    background-color: #ffe1ba;
+    padding: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: px;
+    z-index: 1;
+}
+#santra{
+    position: relative;
+    left: 200px;
+    bottom: 15px;
+    
+    
+
+    width: 900px;
+    z-index: 2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+    
+#shopping {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: left;
+    font-weight:lighter;
+    font-size: 50px;
+    position: absolute;
+    left: 60px;
+    top: 90px;
+}
+#shopbut{
+    transition: transform 0.3s ease-in-out ;
+    transition: background-color 0.3s ease-in-out;
+
+   width: 100px;
+   height: 40px;
+    position: absolute;
+    left: 65px;
+    top:300px;
+    border-radius: 30%;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+#shopbut:hover{
+    background-color: #d3b185;
+    transform: scale(1.1);   
+}
+#topbrands {
+    color: rgb(44, 44, 44);
+    font-size: 30px;
+    font-weight: light;
+    font-family:  sans-serif;
+    letter-spacing: 6px;
+    position: absolute;
+    right:420px;
+    
+}
+#bgbox1 {
+    background-color: #D1BB9E;
+    height: 350px;
+    padding: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    position: absolute;
+    left: 80px;
+    width: 50px;
+
+}
+#nikeshoes {
+    position: absolute;
+    bottom: 190px;
+    width: 350px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 20px  rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+#nikelogo {
+    width: 140px;
+    position: absolute;
+    bottom: 110px;   
+}
+#niketext {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 1630px;
+    right: 1130px;
+} 
+#nikeshoesonly{
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    width: 350px;
+    bottom: 190px;
+    
+    z-index: 2;
+    
+} 
+#nikeshoesonly:hover {
+    transform:scale(1.2);
+}                                                                                           
+#bgbox2 {
+    background-color: #D1BB9E;
+    height: 350px;
+    padding: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    position: absolute;
+    left: 555px;
+    width: 50px;
+
+}
+#polocap {
+    position: absolute;
+    bottom: 190px;
+    width:350px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 25px  rgba(0, 0, 0, 0.2);
+    z-index:1 ;
+}
+#polocaponly {
+    transition:transform 0.3s ease-in-out ;
+    position: absolute;
+    bottom:305px;
+    width:350px;
+    z-index:2 ;
+    
+    
+}
+#polocaponly:hover{
+    transform:scale(1.2);
+} 
+
+#polologo {
+    width: 70px;
+    position: absolute;
+    bottom: 85px;   
+}
+#polotext {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    position: absolute;
+    top: 1630px;
+    right: 650px;
+}                                                                                             
+#bgbox3 {
+    background-color: #D1BB9E;
+    height: 350px;
+    padding: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    position: absolute;
+    left: 1030px;
+    width: 50px;
+
+}
+#pumahoodie {
+    position: absolute;
+    bottom: 190px;
+    width:350px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 25px  rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+#pumahoodieonly{
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    bottom: 230px;
+    width:320px;
+    z-index: 2;
+
+}
+#pumahoodieonly:hover{
+    transform: scale(1.2);
+}
+#pumalogo {
+    width: 150px;
+    position: absolute;
+    bottom: 60px;   
+}
+#pumatext {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 1630px;
+    right: 180px;
+}      
+
+#sportsweartxt {
+    color: rgb(44, 44, 44);
+    font-size: 30px;
+    font-weight: light;
+    font-family:  sans-serif;
+    letter-spacing: 10px;
+    position: absolute;
+    top:1790px;
+    right: 605px;
+}
+#sportswearbg{
+    background-color: #ffe1ba;
+    height: 200px;
+    width: 1310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 100px;
+    top:1900px;
+    box-shadow: 0px 0px 30px  rgba(50,39,25,0.1);
+    z-index: 1;
+
+}
+#yogafit{
+    position: absolute;
+    top: 1900px;
+    left: 60px;
+   
+    
+   background-color :rgba(50,39,25, 0.2);
+   height: 390px;
+   width: 280px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+    
+#yogafitimg{
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px  rgba(50,39,25,0.3);
+    position: absolute;
+    bottom: 100px;
+    left: 29px;
+    width: 230px;
+}
+#tracksuittxt{
+    color: #5d5142;
+    position: absolute;
+    left: 70px;
+    bottom: 15px;
+}
+#compressionts{
+    position: absolute;
+    top: 1900px;
+    left: 440px;
+   background-color :rgba(50,39,25, 0.2);
+   height: 390px;
+   width: 280px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+    
+#compressiontsimg{
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px  rgba(50,39,25,0.3);
+    position: absolute;
+    bottom: 100px;
+    left: 29px;
+    width: 230px;
+}
+#compressiontstxt{
+    
+    color: #5d5142;
+    position: absolute;
+    left: 50px; 
+    bottom: 1px;
+}
+#sportsbra{
+    position: absolute;
+    top: 1900px;
+    left: 820px;
+   background-color :rgba(50,39,25, 0.2);
+   height: 390px;
+   width: 280px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+    
+#sportsbraimg{
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px  rgba(50,39,25,0.3);
+    position: absolute;
+    bottom: 100px;
+    left: 29px;
+    width: 230px;
+}
+#sportsbratxt{
+    
+    color: #5d5142;
+    position: absolute;
+    left: 50px;
+    bottom: 1px;
+}
+#sportsjack{
+    position: absolute;
+    top: 1900px;
+    left: 1200px;
+   background-color :rgba(50,39,25, 0.2);
+   height: 390px;
+   width: 280px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+    
+#sportsjackimg{
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px  rgba(50,39,25,0.3);
+    position: absolute;
+    bottom: 100px;
+    left: 29px;
+    width: 230px;
+}
+#sportsjacktxt{
+    
+    color: #5d5142;
+    position: absolute;
+    left: 50px;
+    bottom: 1px;
+}
